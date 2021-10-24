@@ -33,7 +33,13 @@ const GeneralTransactions = () => {
           <p>Airtime purchase, withdrawal and funded wallet</p>
         </div>
       </div>
-      <div className="trnx-table">
+      <div
+        className="trnx-table"
+        style={{
+          maxHeight: 700,
+          overflow: "scroll",
+        }}
+      >
         <ToolBar />
         <div className="trnx-table-list">
           <h4>Today</h4>
@@ -41,6 +47,19 @@ const GeneralTransactions = () => {
             <TableCards key={Math.random()} item={item} />
           ))}
           <h4>Yesterday</h4>
+          {data.map((item) => (
+            <TableCards key={Math.random()} item={item} />
+          ))}
+
+          <h4>1 days ago</h4>
+          {data.map((item) => (
+            <TableCards key={Math.random()} item={item} />
+          ))}
+          <h4>2 days ago</h4>
+          {data.map((item) => (
+            <TableCards key={Math.random()} item={item} />
+          ))}
+          <h4>3 days ago</h4>
           {data.map((item) => (
             <TableCards key={Math.random()} item={item} />
           ))}
