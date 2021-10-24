@@ -1,0 +1,149 @@
+.transactions {
+  .error{
+    text-align: center;
+    padding:0.3rem 0 ;
+    background: $danger-light;
+  }
+}
+
+.transactions-section {
+  .hero-section {
+    background-color: $primary-light;
+    padding: 6rem 1rem;
+
+
+    .text-media {
+ 
+      @media (min-width:768px) {
+        width: 60%;
+        text-align: center;
+        margin: -2.5rem auto 0 auto;
+      }
+
+    }
+
+    h3 {
+
+      text-align: left;
+      font: normal normal 600 24px/35px Poppins;
+      font-size: 2rem;
+      letter-spacing: 0px;
+      color: $text-dark;
+      opacity: 1;
+      @extend .text-media;
+    }
+
+    p {
+      color: $text-dark;
+      text-align: left;
+      font: normal normal 300 14px/21px Poppins;
+      letter-spacing: 0px;
+      opacity: 1;
+      // margin: 0.2rem 0;
+      margin: 0rem auto 0 auto;
+      @extend .text-media;
+    }
+  }
+}
+
+.trnx-table {
+  display: flex;
+  flex-flow: column nowrap;
+  // align-items: center;
+  margin: -2.5rem 1rem 0 1rem;
+  z-index: 2;
+  padding: 0.6rem 0.9rem;
+  background: $white 0% 0% no-repeat padding-box;
+  box-shadow: $box-shadow;
+  border-radius: 14px;
+  opacity: 1;
+
+
+
+  @media (min-width:768px) {
+    width: 60%;
+    margin: -2.5rem auto 0 auto;
+  }
+
+  &-list {
+    h4 {
+      text-align: left;
+      font: normal normal normal 16px/25px Poppins;
+      letter-spacing: 0px;
+      color: $text-dark;
+      opacity: 1;
+      margin: 1rem 0;
+    }
+  }
+
+}
+
+
+
+.table-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0.1rem;
+  padding: 0 0 0.4rem 0;
+  border-bottom: 1px solid $bg-light;
+
+  .title {
+    display: flex;
+
+
+    .circle {
+      border-radius: 50%;
+      padding: 0.6rem;
+      margin: 0 0.4rem 0 0;
+    }
+
+    .credit-bg {
+      background-color: $primary-light;
+      @extend .circle
+    }
+
+    .debit-bg {
+      background-color: $danger-light;
+      @extend .circle
+    }
+
+  }
+
+  .price {
+    text-align: right;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: $text-dark;
+    opacity: 1
+  }
+
+  .text {
+    margin: 0 0.4rem;
+
+    span {
+      display: block;
+    }
+
+    .details {
+      text-align: left;
+      font: normal normal 300 16px/25px Poppins;
+      letter-spacing: 0px;
+      color: #2A4365;
+      opacity: 1;
+    }
+
+
+    .time {
+      color: var(--unnamed-color-9d9e9d);
+      text-align: left;
+      font: normal normal 300 12px/18px Poppins;
+      letter-spacing: 0px;
+      color: #9D9E9D;
+      opacity: 1;
+    }
+
+
+  }
+
+
+}
