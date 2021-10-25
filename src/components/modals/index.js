@@ -89,7 +89,8 @@ const Modal = styled(posed.div(modalPoses))`
     margin: auto;
     margin-bottom: 0;
     top: 40vh;
-    height: 50vh;
+    height: auto;
+    max-height: 68vh;
     bottom: 0;
   transform: translate(-50%, -0%);
   border-radius: 10px 10px 0 0;

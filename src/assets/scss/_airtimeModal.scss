@@ -36,10 +36,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 9px
+    margin-left: 1rem;
+    border-radius: 9px;
   }
-  .green2{
-    font-size: 4rem;
+  .green2 {
+    font-size: 2.5rem;
     width: 80px;
   }
 
@@ -52,6 +53,7 @@
     border: solid 1px red;
     margin-bottom: 10px;
     border-radius: 8px;
+    background-color: #f1f4f9;
   }
 
   .submit {
@@ -68,5 +70,10 @@
   }
   .input-field {
     border: none;
+    background-color: #f1f4f9;
+    height: 100%;
+    width: 100%;
+    padding: 1px;
+    font-size: 1.8rem;
   }
 }
