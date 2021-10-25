@@ -1,0 +1,72 @@
+.amodal {
+  @media (max-width: 768px) {
+    padding: 0 0.5rem;
+  }
+
+  .img {
+    margin-right: 12px;
+  }
+
+  .h1 {
+    font-size: 1.7rem;
+    fontweight: normal;
+    font-family: Poppins;
+    color: #2a4365;
+    margin-bottom: 2rem;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .card {
+    align-items: center;
+    border: solid 0.1px #2a4365;
+    border-radius: 14px;
+    padding: 1rem;
+    margin: 2rem auto;
+  }
+
+  .green {
+    background: #4caf50;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px
+  }
+  .green2{
+    font-size: 4rem;
+    width: 80px;
+  }
+
+  .input {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem, 7rem;
+    height: 60px;
+    width: 100%;
+    border: solid 1px red;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .submit {
+    background: #4caf50;
+    border-radius: 30px;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    height: 40px;
+    padding: 1px 2rem;
+  }
+  .full {
+    width: 100%;
+  }
+  .input-field {
+    border: none;
+  }
+}

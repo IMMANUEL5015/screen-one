@@ -4,7 +4,7 @@ import GeneralTransactions from "./pages/GeneralTransactions";
 function App() {
   return (
     <div className="App">
-      <SideNav />
+      {/* <SideNav /> */}
       <Header />
       <GeneralTransactions />
     </div>
